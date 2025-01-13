@@ -1,0 +1,36 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    background-color: rgb(80, 58, 58);
+    color: rgb(172, 243, 243);
+}
+
+h3{
+    margin-top: 50px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: x-large;
+    border-radius: 100%;
+    color: rgb(224, 103, 103);
+    font-style: italic;
+    font-weight: 900;
+    margin-top: 50px
+}
+
+img{
+    height: 27px;
+    width: 39px;
+}
+
+#none{
+    display: none;
+}
+
+button{
+    color: bisque;
+    margin-top: 3em; 
+    cursor: pointer;
+    background-color: purple;
+    border-radius: 50px;
+    border: none;
+}
