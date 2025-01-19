@@ -22,6 +22,8 @@ const step2button = document.querySelector("#step2button");
 const step3button = document.querySelector("#step3button");
 const step3css = document.querySelector("#step3css");
 const step1js = document.querySelector("#step1js");
+const jsbut1 = document.querySelector('#jsbut1');
+const jspre = document.querySelector('#jspre');
 /*const div3 = document.querySelector('#div3');*/
 
 html.onclick = HTML;
@@ -35,6 +37,7 @@ step4.onclick = button3;
 step5.onclick = button4;
 step2button.onclick = cssbut;
 step3button.onclick = cssbut1;
+jsbut1.onclick = jsbut;
 /* the function*/
 
 function HTML() {
@@ -148,4 +151,8 @@ function cssbut1() {
   step1css.style.display = "none";
   step2css.style.display = "none";
   step3css.style.display = "block";
+}
+function jsbut() {
+  step1js.style.display = "none";
+  jspre.style.display = "block";
 }
