@@ -24,6 +24,7 @@ const step3css = document.querySelector("#step3css");
 const step1js = document.querySelector("#step1js");
 const jsbut1 = document.querySelector('#jsbut1');
 const jspre = document.querySelector('#jspre');
+const jspre1 = document.querySelector('#jspre1')
 /*const div3 = document.querySelector('#div3');*/
 
 html.onclick = HTML;
@@ -153,6 +154,6 @@ function cssbut1() {
   step3css.style.display = "block";
 }
 function jsbut() {
-  step1js.style.display = "none";
+  jspre1.style.display = "none";
   jspre.style.display = "block";
 }
