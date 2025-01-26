@@ -72,7 +72,10 @@ function Javascript() {
   Script.style.display = "none";
   python.style.display = "none";
   go.style.display = "block";
-  step1js.style.display = "block";
+  jspre1.style.display = "block";
+  jspre.style.display = "none";
+  jsbut1.style.display = 'block'
+  //step1js.style.display = "block";
 }
 function py() {
   html.innerText = "Step1";
