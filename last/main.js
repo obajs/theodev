@@ -24,7 +24,8 @@ const step3css = document.querySelector("#step3css");
 const step1js = document.querySelector("#step1js");
 const jsbut1 = document.querySelector('#jsbut1');
 const jspre = document.querySelector('#jspre');
-const jspre1 = document.querySelector('#jspre1')
+const jspre1 = document.querySelector('#jspre1');
+const step1cent = document.querySelector('#step1cent');
 /*const div3 = document.querySelector('#div3');*/
 
 html.onclick = HTML;
@@ -75,13 +76,11 @@ function Javascript() {
   jspre1.style.display = "block";
   jspre.style.display = "none";
   jsbut1.style.display = 'block'
-  //step1js.style.display = "block";
+  step1js.style.display = "block";
+  step1cent.innerText = "STEP1-JS"
 }
 function py() {
-  html.innerText = "Step1";
-  Style.innerText = "Step2";
-  Script.innerText = "Step3";
-  python.innerText = "Step4";
+ 
 }
 function move() {
   html.innerText = "HTML";
@@ -159,4 +158,6 @@ function cssbut1() {
 function jsbut() {
   jspre1.style.display = "none";
   jspre.style.display = "block";
+  step1cent.innerText = "STEP2-JS";
+  step1cent.style.color = "rgb(224, 103, 103);";
 }
