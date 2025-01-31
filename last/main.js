@@ -65,6 +65,8 @@ function styles() {
   go.style.display = "block";
   stepcss.style.display = "block";
   step1css.style.display = "block";
+  step2button.style.display = "block";
+  step3button.style.display = "block";
   /*div3.style.display = 'block';*/
 }
 function Javascript() {
@@ -108,6 +110,8 @@ function move() {
   div2.style.display = "none";
   step3css.style.display = "none";
   step1js.style.display = "none";
+  step3button.style.display = "none"
+  step2button.style.display = "none"
 }
 function button1() {
   step2.style.display = "none";
@@ -149,11 +153,15 @@ function cssbut() {
     step1css.style.display = "none";
   step3css.style.display = "none";
   step2css.style.display = "block";
+  step2button.style.display = "none";
+  step3button.style.display = "block";
 }
 function cssbut1() {
   step1css.style.display = "none";
   step2css.style.display = "none";
   step3css.style.display = "block";
+  step2button.style.display = "block";
+  step3button.style.display = "none";
 }
 function jsbut() {
   jspre1.style.display = "none";
