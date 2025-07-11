@@ -38,6 +38,7 @@ const non = document.querySelector('#non');
 const night2 = document.querySelector('#night2')
 const log = document.querySelector('#log');
 const logo = document.querySelector('#logo');
+const logi = document.querySelector("#logi");
 
 html.onclick = HTML;
 Style.onclick = styles;
@@ -213,8 +214,8 @@ head1.style.color = "rgb(56, 11, 9)";
 }
 
 function noDay(){
-  div.style.backgroundColor = 'rgb(255, 255, 255)';
-div.style.color = " rgba(1, 25, 71, 0.98)";
+  div.style.backgroundColor = 'rgb(0, 0, 0)';
+div.style.color = " rgb(172, 243, 243)";
 bright.style.display = "none";
 dark.style.display = "flex";
 day2.style.display = "none";
@@ -241,4 +242,5 @@ head1.style.color = "rgb(224, 103, 103)";
 
 function logIn(){
   logo.style.display = "none";
+  logi.style.display = "flex";
 }

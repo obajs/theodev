@@ -11,9 +11,9 @@
 
 <body class="div">
     <p id="dn">
-    <img src="_Pngtree_vector_sun_icon_4868966-removebg-preview.png" style=" height: 19px;
-    width: 19px;"  id="bright"><img src="moon.png" id="dark" style=" height: 19px;
-    width: 19px;" >
+    <img src="_Pngtree_vector_sun_icon_4868966-removebg-preview.png" style=" height: 15px;
+    width: 15px;"  id="bright"><img src="moon.png" id="dark" style=" height: 15px;
+    width: 15px;" >
     
 </p>
 <center><div id="day2" style="color:red; font-size:small; font-weight: 200;">
@@ -35,6 +35,8 @@
     </button></center>
     <div id="logo">
     <div id="div1">
+        <button id="log" style="width: fit-content;
+    height: fit-content; color: rgb(0, 0, 0); background-color: rgb(243, 236, 171); border-radius: 15px; font-size:xx-large; font-weight:bold">Log in</button>
         <center>
             <h3 style="text-align: center;"id="head1">BASICS FULLSTACK WEB DEVELOPMENT </h3>
         </center>
@@ -752,22 +754,21 @@ This list covers the most commonly used HTML attributes.
 
     </div>
 
-    <button id="log" style="width: fit-content;
-    height: fit-content; color: rgb(0, 0, 0); background-color: rgb(243, 236, 171); border-radius: 15px;">Log in</button>
     </div>
 
     <div style="display: none;" id="logi">
      <pre>
      <form>
         
-   <h2>Name</h2><input type="Name">
+   <label for="Name">Name</label><input type="text">
 
-   <h2>Address</h2><input type="Address">
+<label for="Address">Address</label><input type="text">
 
-   <h2>E-mail</h2><input type="E-mail">
+  <label for="email">E-mail</label><input type="email">
 
-   <h2>Age</h2><input type="Age">
+    <label for="age">Age</label><input type="number" min="9" max="25">
    
+   <input type="submit">
 </form>
 </pre>   
     </div>
