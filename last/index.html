@@ -4,29 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basics of PROGRAMMING</title>
+    <title>Basics fullstack web development</title>
     <link rel="icon" type="image/png" href="Laptop_Icon_PNG_-_Free_Download-removebg-preview.png">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body class="div">
+    <p id="dn">
+    <img src="_Pngtree_vector_sun_icon_4868966-removebg-preview.png" style=" height: 19px;
+    width: 19px;"  id="bright"><img src="moon.png" id="dark" style=" height: 19px;
+    width: 19px;" >
+    
+</p>
+<center><div id="day2" style="color:red; font-size:small; font-weight: 200;">
+    Do you want to go to day mode
+    <button id="yesd" style="color:red; font-size:small; font-weight: 200;">
+       YES
+</button>
+    <button id="nod" style="color:red; font-size:small; font-weight: 200;">
+        NO
+    </button></center>
+ </div>
+ <center><div id="night2" style="color:red; font-size:small; font-weight: 200;">
+    Do you want to go to night mode
+    <button id="yesn" style="color:red; font-size:small; font-weight: 200;">
+       YES
+</button>
+    <button id="non" style="color:red; font-size:small; font-weight: 200;">
+        NO
+    </button></center>
+    <div id="logo">
     <div id="div1">
         <center>
-            <h3 style="text-align: center;">BASICS OF PROGRAMMING </h3>
+            <h3 style="text-align: center;"id="head1">BASICS FULLSTACK WEB DEVELOPMENT </h3>
         </center>
         <pre>
-            we use PROGRAMMING to make
+            we use fullstack web development to make
             websites, apps and games and
             many more other things like
-            AI so join PROGRAMMING now.
+            AI so join fullstack web development now.
         </pre>
     </div>
     <div id="div2" style="display:none;">
         <h3 style="text-align: center;"><img src="html-removebg-preview.png" style="width: 90px; height: 35px;"> </h3>
     </div>
-    <!--<div id="div3" style="display:none;">
+    <div id="div3" style="display:none;">
         <img src="css-removebg-preview.png" alt="">
-    </div>-->
+    </div>
     <div>
         <tr>
             <th>
@@ -38,14 +62,11 @@
             <th>
                 <button id="Style" style="color: bisque;
         margin-top: 3em; cursor: pointer;
-        background-color: purple; border-radius: 50px; padding:1em ;border: none;">CSS</button>
+        background-color: purple; border-radius: 50px; padding:1em ;border: none;"><img src="css-removebg-preview.png" style="width: 90px; height: 35px;"></button>
             </th>
             <th><button id="Script" style="color: bisque;
         margin-top: 3em; cursor: pointer;
-        background-color: purple; border-radius: 50px; padding:1em; border: none;">JAVA Script</button></th>
-            <th><button id="python" style="color: bisque;
-        margin-top: 3em; cursor: pointer;
-        background-color: purple; border-radius: 50px; padding:1em; border: none;">PYTHON</button></th>
+        background-color: purple; border-radius: 50px; padding:1em; border: none; font-size:large; font-weight: 900;">JAVA Script</button></th>
         </tr>
     </div>
     <button id="go" style="color: bisque; display: none;
@@ -83,9 +104,9 @@
         <code>
             <pre id="innerStep2" style="display: none;">
 
-            <center>
-                <h3 style="text-align: center;">STEP2  the elements</h3>
-            </center>
+            
+                <h3>STEP2  the elements</h3>
+            
 
                 we use the elemnt to
                 make our code without
@@ -674,6 +695,9 @@ This list covers the most commonly used HTML attributes.
             <span style="color: red;">Types of Variable</span>
             const,let,var
             <span style="color: red;">How to use them</span>
+            but first string are words that are the output
+            of JS code. 
+
 
             Example
 
@@ -682,17 +706,75 @@ This list covers the most commonly used HTML attributes.
             let <span style="color: blue;">age</span> = 25;
             age = 26;
 
-            var <span style="color: blue;">city</span> = "New York";
+            var <span style="color: blue;">city</span> = <span style="color: gray;"> "New York"</span>;
 
+        2.    <span style="color: red;">Arrays</span>
+        Arrays are boxes used for storing item:(strings,integer).
+ 
+        Example
+
+        const <span style="color: blue;">name</span> = <span style="color: gray;">[chris,hengry,peter]</span>;
+    
+        let <span style="color: blue;">age</span> = 25;
+        age = [25,26,27];
+
+        3.  <span style="color: red;">Function</span> 
+        Function are the brian of a javascript code
+        It is like the functionallity of a web
+
+        for e.g what I used in the night mode Function
+
+        "function night() {
+            div.style.backgroundColor = "rgb(19, 5, 5)";
+            div.style.color = "rgb(172, 243, 243)";
+            bright.style.display = "flex";
+            dark.style.display = "none";
+            alert('Do you want to go to night mode');
+            head1.style.color = " rgb(255, 103, 103)";
+          }
+        "
+        And one thing you need to know in 
+        functions is there are the brain JS
+
+        4.  <span style="color: red;">Loops</span> 
+        Loops is the repeting or
+        redoing of a displayed program.
+
+        5.  <span style="color: red;">If else stetment</span> 
+        There been used in a function,
+        this how it works.
+        "if ('code');
+        else ('code');"
+        it means if the 'if'stetment dose
+        not work 'else' take care of it.
          </pre>
         <div><button id="jsbut1">Things you need to work in js</button></div>
 
     </div>
 
+    <button id="log" style="width: fit-content;
+    height: fit-content; color: rgb(0, 0, 0); background-color: rgb(243, 236, 171); border-radius: 15px;">Log in</button>
+    </div>
+
+    <div style="display: none;" id="logi">
+     <pre>
+     <form>
+        
+   <h2>Name</h2><input type="Name">
+
+   <h2>Address</h2><input type="Address">
+
+   <h2>E-mail</h2><input type="E-mail">
+
+   <h2>Age</h2><input type="Age">
+   
+</form>
+</pre>   
+    </div>
     <script src="main.js">
 
     </script>
     
 </body>
 
-</html>
+</html> 

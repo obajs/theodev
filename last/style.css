@@ -1,8 +1,8 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
-    background-color: rgb(80, 58, 58);
-    color: rgb(172, 243, 243);
+    background-color: #fff;
+    color: rgba(1, 25, 71, 0.98);
 }
 
 h3{
@@ -33,4 +33,39 @@ button{
     background-color: purple;
     border-radius: 50px;
     border: none;
+}
+
+#dn{ background-color: white;
+    margin-bottom: 1em; 
+    border-radius: 360px;
+    width: 19px;
+    height: 19px;
+    cursor: pointer;
+}
+#day2{
+    height: fit-content;
+    width: fit-content;
+    background-color: blanchedalmond;
+    padding: 10px;
+    border-top-left-radius: 0pt;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    display: none;
+}
+
+#night2{
+    height: fit-content;
+    width: fit-content;
+    background-color: blanchedalmond;
+    padding: 10px;
+    border-top-left-radius: 0pt;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    display: none;
+}
+
+#bright{
+    display: none;
 }
